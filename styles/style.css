@@ -64,3 +64,29 @@ body {
 .focus-btn {
   font-size: 1rem;
 }
+
+
+/* second part */
+
+.preview .container {
+  display: flex;
+  gap: 50px;
+  padding: 60px 10%;
+  flex-wrap: wrap;
+}
+.rounded-image2 {
+  border-radius: 48px;
+}
+
+.preview .text {
+  flex: 1;
+}
+
+.preview .image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 48px;
+}
